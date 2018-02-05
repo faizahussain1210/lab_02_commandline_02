@@ -39,7 +39,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-good mornin'
+>
 
 ==========
 4. Uh-oh... we're stuck!
