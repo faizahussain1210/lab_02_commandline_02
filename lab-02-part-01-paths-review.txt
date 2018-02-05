@@ -100,3 +100,31 @@ e. Determine which folder in my-stuff was created most recently by using ls.  (t
 f. Remove that folder.
 g. Show all of the commands that you used to complete the above exercise.  (for example, how did you determine which folder in my-stuff was the most recent?).  Use the command: history ... to help you remember what you did!  Paste the commands below.
 ----------
+ent-v314-014:~ student$ cd desktop
+ent-v314-014:desktop student$ mkdir -p my-stuff/archived
+ent-v314-014:desktop student$ mkdir -p my-stuff/current
+ent-v314-014:desktop student$ hostname
+ent-v314-014.local
+ent-v314-014:desktop student$ cd my-stuff
+ent-v314-014:my-stuff student$ ls -t
+local		current		archived
+ mkdir -p my-stuff/archived
+  157  mkdir -p my-stuff/current
+  158  holdname
+  159  cd hostname
+  160  hostname
+  161  mkdir -p my-stuff/local
+  162  cd my-stuff
+  163  ls -t
+  164  cd ..
+  165  rmdir current
+  166  cd my-stuff
+  167  ls
+  168  rmdir current
+  169  rmdir local
+  170  rmdir archived
+  171  cd ..
+  172  rmdir my-stuff
+  173  ls
+  174  history ...
+  175  history
